@@ -11,9 +11,9 @@ public class descendingNumberSequence {
         if (n==1){
             System.out.println(1);
         }else{
+            System.out.println(n); // here we are printing before we finish the execution
+           seq(n-1); // and we are changning the argument in function
 
-           seq(n-1);
-           System.out.println(n);
 
         }
 
